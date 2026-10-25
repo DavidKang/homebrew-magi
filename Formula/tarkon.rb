@@ -4,8 +4,8 @@ class Tarkon < Formula
   desc "Team board of Jira epics and GitHub PRs, in the terminal"
   homepage "https://github.com/DavidKang/tarkon"
   url "https://github.com/DavidKang/tarkon.git",
-      tag:      "v0.1.1",
-      revision: "5dbcaf0a2081e8889433da757382b4aca8281ff5"
+      tag:      "v0.1.2",
+      revision: "6ace75acbd87872faf46c3673fa95544228a379b"
   license "MIT"
 
   depends_on "gh"
