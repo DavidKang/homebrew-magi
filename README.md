@@ -1,9 +1,9 @@
-# homebrew-tarkon
+# homebrew-magi
 
-Homebrew tap for [Tarkon](https://github.com/DavidKang/tarkon).
+Homebrew tap for [Magi](https://github.com/DavidKang/magi).
 
 ```bash
-brew install davidkang/tarkon/tarkon
+brew install davidkang/magi/magi
 ```
 
-The formula is bumped by tarkon's `homebrew` workflow on every `v*` tag.
+The formula is bumped by magi's `homebrew` workflow on every `v*` tag.

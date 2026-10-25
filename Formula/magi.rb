@@ -1,11 +1,11 @@
-class Tarkon < Formula
+class Magi < Formula
   include Language::Python::Virtualenv
 
   desc "Team board of Jira epics and GitHub PRs, in the terminal"
-  homepage "https://github.com/DavidKang/tarkon"
-  url "https://github.com/DavidKang/tarkon.git",
-      tag:      "v0.1.4",
-      revision: "a3f1544ba15a1239ed8435773969e4136f9f38e1"
+  homepage "https://github.com/DavidKang/magi"
+  url "https://github.com/DavidKang/magi.git",
+      tag:      "v0.2.0",
+      revision: "107978d83edb7b4422d91201f95ad4add95b2dd4"
   license "MIT"
 
   depends_on "gh"
@@ -68,6 +68,6 @@ class Tarkon < Formula
   end
 
   test do
-    assert_match "usage: tarkon", shell_output("#{bin}/tarkon --help")
+    assert_match "usage: magi", shell_output("#{bin}/magi --help")
   end
 end
