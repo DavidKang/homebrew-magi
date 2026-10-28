@@ -4,8 +4,8 @@ class Magi < Formula
   desc "Team board of Jira epics and GitHub PRs, in the terminal"
   homepage "https://github.com/DavidKang/magi"
   url "https://github.com/DavidKang/magi.git",
-      tag:      "v0.5.0",
-      revision: "ca3ab4666724399ff3e8b8c8e04d3415e3a8ad52"
+      tag:      "v0.6.0",
+      revision: "c98b60162e43bb83b787a39f55e92a4d9b3219b2"
   license "MIT"
 
   depends_on "gh"
