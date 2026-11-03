@@ -5,7 +5,7 @@ class Magi < Formula
   homepage "https://github.com/DavidKang/magi"
   url "https://github.com/DavidKang/magi.git",
       tag:      "v0.16.0",
-      revision: "4f6df90b28f72108a3a63f0431164ae49101d517"
+      revision: "430c1cbd2c6f28dff2455a10ca87a391fdd4ef5d"
   license "MIT"
 
   depends_on "gh"
